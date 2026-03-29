@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .wrap {
+      width: 800px;
+      height: 700px;
+      border: 1px solid #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      /* 交叉轴方向上的 多主轴轴线之间的排列 */
+      align-content: flex-start;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #78c8ed;
+      margin: 10px;
+    }
+
+    .empty {
+      height: 1px;
+      background-color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <!-- 额外增加的 空的结构 站位用 -->
+    <div class="box empty"></div>
+    <div class="box empty"></div>
+    <div class="box empty"></div>
+  </div>
+</body>
+
+</html>
